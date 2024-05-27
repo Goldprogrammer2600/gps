@@ -23,14 +23,14 @@ header h1 {
 #map {
     display: flex;
   position: absolute;
-  margin-top: 10%;
+  margin-top: 20%;
   top: 0;
   bottom: 0;
   width: 100%;
-  height: 60em;
 }
 
 .mapboxgl-popup {
   max-width: 400px;
   font: 12px/20px "Helvetica Neue", Arial, Helvetica, sans-serif;
 }
+

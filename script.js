@@ -150,4 +150,9 @@ map.on("mouseleave", "places", () => {
   map.getCanvas().style.cursor = "";
   popup.remove();
 });
+
+map.on("touchend", "places", () => {
+    map.getCanvas().style.cursor = "";
+    popup.remove();
+  });
 });

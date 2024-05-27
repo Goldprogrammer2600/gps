@@ -2,6 +2,15 @@ body {
     background: linear-gradient(to right, black, grey);
 }
 
-.all {
+header h1 {
     display: flex;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    gap: 400;
+}
+
+.top{
+    display: flex;
+
 }

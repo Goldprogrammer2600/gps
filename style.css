@@ -1,5 +1,6 @@
 body {
   background: linear-gradient(to right, black, grey);
+  margin: 0;
 }
 
 header {
@@ -16,6 +17,7 @@ header h1 {
 
 .top {
   display: flex;
+  margin-top: 8px;
 }
 
 #map {

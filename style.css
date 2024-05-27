@@ -2,15 +2,18 @@ body {
     background: linear-gradient(to right, black, grey);
 }
 
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
 header h1 {
     display: flex;
     color: white;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    gap: 400;
 }
 
 .top{
     display: flex;
-
 }

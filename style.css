@@ -38,4 +38,10 @@ border-top-left-radius: 3%;
 border-top-right-radius: 3%;
 }
 
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: DarkSalmon;
+  color: white;
+}
 

@@ -4,16 +4,15 @@ body {
 }
 
 .all {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 header {
   display: flex;
   justify-content: space-between;
 }
-
 
 header h1 {
   display: flex;
@@ -29,13 +28,13 @@ header h1 {
 }
 
 iframe {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 500px;
-border-top-left-radius: 3%;
-border-top-right-radius: 3%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 700px;
+  border-top-left-radius: 3%;
+  border-top-right-radius: 3%;
 }
 
 footer {
@@ -47,7 +46,7 @@ footer {
   height: 99px;
 }
 
-footer p{
+footer p {
   font-size: 20px;
   font-weight: 600;
 }

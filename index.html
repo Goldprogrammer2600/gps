@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="nl">
 <head>
   <meta charset="utf-8" />
   <title>Locator</title>
@@ -16,6 +16,18 @@
     </header>
   </div>
   <div class="all">
+    <div class="controls">
+      <input type="text" id="search-bar" placeholder="Zoek een locatie" />
+      <select id="filter-options">
+        <option value="all">Alles</option>
+        <option value="historical">Historisch</option>
+        <option value="museum">Musea</option>
+        <option value="entertainment">Entertainment</option>
+        <option value="food">Eten & Drinken</option>
+        <option value="viewpoint">Uitzichtpunten</option>
+        <!-- Voeg meer categorieën toe indien nodig -->
+      </select>
+    </div>
     <div id="map" class="map"></div>
     <div class="controls">
       <button id="toggle-dark-mode">Toggle Dark Mode</button>
